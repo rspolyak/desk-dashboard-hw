@@ -6,7 +6,8 @@ Powered over USB-C (5 V). KiCad 10 project.
 
 ![3D render of the board](output/board-3d.jpg)
 
-**Status:** schematic and PCB finished (ERC 0, DRC 0, fully routed); JLCPCB files generated.
+**Status:** schematic and PCB finished (ERC 0 errors, DRC 0 errors, fully routed).
+!NOT TESTED ON ACTUAL HW YET!
 
 ## Features
 - ESP32-S3-WROOM-1-N16R8 (16 MB flash, 8 MB octal PSRAM), native USB on the USB-C connector
