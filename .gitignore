@@ -1,2 +1,4 @@
 desk_dashboard.kicad_prl
 desk_dashboard-backups/
+~*.lck
+.DS_Store
