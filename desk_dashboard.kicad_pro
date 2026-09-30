@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -658,13 +658,18 @@
       {
         "filename": "desk_dashboard.kicad_sch",
         "name": "desk_dashboard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "5c0abd3b-1f1c-4809-9b2a-5f01cf762948"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5c0abd3b-1f1c-4809-9b2a-5f01cf762948",
+      "desk_dashboard"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
