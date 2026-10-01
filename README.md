@@ -22,6 +22,10 @@ Powered over USB-C (5 V). KiCad 10 project.
 - The ESP32 antenna overhangs the right board edge by 6 mm (Espressif's preferred placement)
 - J2 (display socket) is on the display-facing side; all other parts face outward
 
+![Top view of the board with all reference designators](output/board-3d-top.jpg)
+
+![Side view: J2 display socket underneath and the ESP32 antenna overhanging the board edge](output/board-3d-antenna.jpg)
+
 ## Design notes
 - The display is powered from **5 V**: its LDO also feeds the backlight, which would be dim at 3.3 V.
 - The display's touch I²C has 10 k pull-ups to 5 V, so two BSS138 level shifters (Q1 SCL, Q2 SDA)
