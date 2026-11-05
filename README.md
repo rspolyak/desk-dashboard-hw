@@ -7,7 +7,7 @@ Powered over USB-C (5 V). KiCad 10 project.
 ![3D render of the board](output/board-3d.jpg)
 
 **Status:** schematic and PCB finished (ERC 0 errors, DRC 0 errors, fully routed).
-!NOT TESTED ON ACTUAL HW YET!
+Board tested. No hardware issues found
 
 ## Features
 - ESP32-S3-WROOM-1-N16R8 (16 MB flash, 8 MB octal PSRAM), native USB on the USB-C connector
@@ -51,8 +51,7 @@ All parts were in stock at JLCPCB when the design was finished. Each schematic s
 Passives, buttons, PTC, TVS and the inductor are listed in the schematic.
 
 ## Display
-LCDwiki MSP3526 (3.5" IPS, 320x480, ST7796 + FT6336U), sold by several resellers. Check that the
-header pin labels match the J2 order above before buying.
+LCDwiki MSP3526 (3.5" IPS, 320x480, ST7796 + FT6336U), sold by several resellers
 
 ## License
 MIT, see LICENSE
