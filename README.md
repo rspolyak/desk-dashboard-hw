@@ -4,6 +4,8 @@ A small ESP32-S3 board that plugs onto the 14-pin header of an **MSP3526** 3.5" 
 capacitive touchscreen (ST7796 + FT6336U) and turns it into a desk dashboard.
 Powered over USB-C (5 V). KiCad 10 project.
 
+Corresponding firmware repository: [desk-dashboard-fw](https://github.com/rspolyak/desk-dashboard-fw)
+
 ![3D render of the board](output/board-3d.jpg)
 
 **Status:** schematic and PCB finished (ERC 0 errors, DRC 0 errors, fully routed).
